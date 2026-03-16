@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunfed Agro Ventures | Climate-Smart Poultry in Borno State</title>
-    <meta name="description" content="Solar-powered, climate-adapted poultry farming delivering food security in Maiduguri, Borno State, Nigeria">
+    <meta name="description" content="Solar-powered, climate-adaptive poultry farming delivering food security in Maiduguri, Borno State, Nigeria">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
         * {
@@ -572,7 +572,7 @@
                 Powering Borno's 
                 <span class="highlight">Food Security</span>
             </h1>
-            <p>Solar-powered, climate-adapted poultry farming delivering affordable protein in Maiduguri, where extreme heat meets urgent need.</p>
+            <p>Solar-powered, climate-adaptive poultry farming delivering affordable protein in Maiduguri, where extreme heat meets urgent need.</p>
             
             <div class="stats">
                 <div class="stat">
