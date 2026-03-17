@@ -44,7 +44,7 @@
         nav {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 1rem 2rem;
+            padding: 0.8rem 1.5rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -53,31 +53,31 @@
         .logo-container {
             display: flex;
             align-items: center;
-            gap: 0.8rem;
+            gap: 0.6rem;
         }
 
         .logo-img {
-            height: 50px;
+            height: 40px;
             width: auto;
         }
 
         .logo-text {
             font-family: 'Crimson Pro', serif;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: 700;
             color: var(--earth);
         }
 
         .nav-links {
             display: flex;
-            gap: 2rem;
+            gap: 1.5rem;
             align-items: center;
         }
 
         .nav-links a {
             text-decoration: none;
             color: var(--text-mid);
-            font-size: 0.95rem;
+            font-size: 0.9rem;
             transition: color 0.3s ease;
         }
 
@@ -88,10 +88,11 @@
         .contact-btn {
             background: var(--sun);
             color: white;
-            padding: 0.6rem 1.5rem;
+            padding: 0.5rem 1.2rem;
             border-radius: 4px;
             font-weight: 500;
             transition: background 0.3s ease;
+            font-size: 0.85rem;
         }
 
         .contact-btn:hover {
@@ -101,7 +102,7 @@
 
         /* Hero */
         .hero {
-            padding: 10rem 2rem 5rem;
+            padding: 8rem 1.5rem 4rem;
             background: linear-gradient(135deg, var(--cream) 0%, var(--sand) 100%);
             text-align: center;
         }
@@ -112,29 +113,29 @@
         }
 
         .hero-logo {
-            max-width: 150px;
-            margin: 0 auto 2rem;
+            max-width: 100px;
+            margin: 0 auto 1.5rem;
         }
 
         h1 {
             font-family: 'Crimson Pro', serif;
-            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-size: clamp(1.8rem, 5vw, 3.5rem);
             font-weight: 700;
             color: var(--earth);
-            margin-bottom: 1rem;
+            margin-bottom: 0.8rem;
             line-height: 1.1;
         }
 
         .tagline {
-            font-size: clamp(1.1rem, 3vw, 1.3rem);
+            font-size: clamp(1rem, 3vw, 1.2rem);
             color: var(--text-mid);
             margin-bottom: 0.5rem;
         }
 
         .products {
-            font-size: 1rem;
+            font-size: clamp(0.9rem, 2.5vw, 1rem);
             color: var(--sun);
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
             font-weight: 500;
         }
 
@@ -142,10 +143,10 @@
             display: inline-block;
             background: var(--sun);
             color: white;
-            padding: 1rem 3rem;
+            padding: 0.8rem 2rem;
             text-decoration: none;
             border-radius: 4px;
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 500;
             transition: all 0.3s ease;
             border: 2px solid var(--sun);
@@ -158,46 +159,46 @@
 
         /* Sections */
         section {
-            padding: 4rem 2rem;
+            padding: 3rem 1.5rem;
             max-width: 1200px;
             margin: 0 auto;
         }
 
         h2 {
             font-family: 'Crimson Pro', serif;
-            font-size: clamp(2rem, 4vw, 2.8rem);
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
             font-weight: 700;
             color: var(--earth);
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
             text-align: center;
         }
 
         .section-intro {
             text-align: center;
             max-width: 700px;
-            margin: 0 auto 3rem;
-            font-size: 1.1rem;
+            margin: 0 auto 2rem;
+            font-size: clamp(1rem, 2.5vw, 1.1rem);
             color: var(--text-mid);
-            line-height: 1.8;
+            line-height: 1.7;
         }
 
         /* About Section */
         .about {
             background: white;
             border-radius: 8px;
-            padding: 4rem 2rem;
+            padding: 3rem 1.5rem;
         }
 
         /* Products Grid */
         .products-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
         }
 
         .product-card {
             background: white;
-            padding: 2.5rem;
+            padding: 2rem 1.5rem;
             border-radius: 8px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
             text-align: center;
@@ -210,27 +211,28 @@
         }
 
         .product-icon {
-            font-size: 4rem;
-            margin-bottom: 1rem;
+            font-size: 3rem;
+            margin-bottom: 0.8rem;
         }
 
         .product-card h3 {
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             color: var(--earth);
-            margin-bottom: 1rem;
+            margin-bottom: 0.8rem;
             font-weight: 600;
         }
 
         .product-card p {
             color: var(--text-mid);
-            line-height: 1.7;
+            line-height: 1.6;
+            font-size: 0.95rem;
         }
 
         /* Problem Section */
         .problem {
             background: var(--earth);
             color: var(--cream);
-            padding: 4rem 2rem;
+            padding: 3rem 1.5rem;
             border-radius: 8px;
         }
 
@@ -241,8 +243,8 @@
         .problem-content {
             max-width: 800px;
             margin: 0 auto;
-            font-size: 1.15rem;
-            line-height: 1.8;
+            font-size: clamp(1rem, 2.5vw, 1.15rem);
+            line-height: 1.7;
             text-align: center;
         }
 
@@ -254,39 +256,40 @@
         /* Innovation Cards */
         .innovation-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
         }
 
         .innovation-card {
             background: white;
-            padding: 2.5rem;
+            padding: 2rem 1.5rem;
             border-radius: 8px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
             border-left: 4px solid var(--sun);
         }
 
         .innovation-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            margin-bottom: 0.8rem;
         }
 
         .innovation-card h3 {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             color: var(--earth);
-            margin-bottom: 1rem;
+            margin-bottom: 0.8rem;
             font-weight: 600;
         }
 
         .innovation-card p {
             color: var(--text-mid);
-            line-height: 1.7;
+            line-height: 1.6;
+            font-size: 0.95rem;
         }
 
         /* Founder Section */
         .founder {
             background: var(--sand);
-            padding: 4rem 2rem;
+            padding: 3rem 1.5rem;
         }
 
         .founder-card {
@@ -297,8 +300,13 @@
             overflow: hidden;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
             display: grid;
-            grid-template-columns: 300px 1fr;
+            grid-template-columns: 1fr;
             gap: 0;
+        }
+
+        .founder-image {
+            height: 280px;
+            overflow: hidden;
         }
 
         .founder-image img {
@@ -309,43 +317,44 @@
         }
 
         .founder-details {
-            padding: 3rem;
+            padding: 2rem 1.5rem;
         }
 
         .founder-name {
             font-family: 'Crimson Pro', serif;
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             font-weight: 700;
             color: var(--earth);
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.3rem;
         }
 
         .founder-title {
             color: var(--sun);
-            font-size: 1rem;
-            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
         }
 
         .founder-bio p {
             color: var(--text-mid);
-            line-height: 1.8;
-            margin-bottom: 1rem;
+            line-height: 1.7;
+            margin-bottom: 0.8rem;
+            font-size: 0.95rem;
         }
 
         .credentials {
             display: flex;
             flex-wrap: wrap;
-            gap: 1rem;
-            margin-top: 1.5rem;
-            padding-top: 1.5rem;
+            gap: 0.8rem;
+            margin-top: 1.2rem;
+            padding-top: 1.2rem;
             border-top: 1px solid var(--sand);
         }
 
         .credential-badge {
             background: var(--sand);
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-size: 0.85rem;
+            padding: 0.4rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
             color: var(--text-mid);
         }
 
@@ -353,7 +362,7 @@
         .contact {
             background: var(--earth);
             color: var(--cream);
-            padding: 4rem 2rem;
+            padding: 3rem 1.5rem;
         }
 
         .contact h2 {
@@ -362,34 +371,34 @@
 
         .contact-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            max-width: 900px;
+            grid-template-columns: 1fr;
+            gap: 1.2rem;
+            max-width: 500px;
             margin: 0 auto;
         }
 
         .contact-item {
             background: rgba(255, 255, 255, 0.05);
-            padding: 2rem;
+            padding: 1.5rem;
             border-radius: 8px;
             text-align: center;
         }
 
         .contact-icon {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
+            font-size: 2rem;
+            margin-bottom: 0.8rem;
         }
 
         .contact-label {
-            font-size: 0.85rem;
+            font-size: 0.75rem;
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: var(--sun-light);
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.4rem;
         }
 
         .contact-value {
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: var(--cream);
             word-break: break-word;
         }
@@ -408,33 +417,180 @@
         footer {
             background: var(--text-dark);
             color: rgba(250, 246, 240, 0.6);
-            padding: 2rem;
+            padding: 1.5rem;
             text-align: center;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
+            line-height: 1.5;
         }
 
-        /* Responsive */
-        @media (max-width: 900px) {
-            .founder-card {
-                grid-template-columns: 1fr;
+        /* Desktop/Tablet Overrides */
+        @media (min-width: 768px) {
+            nav {
+                padding: 1rem 2rem;
             }
 
-            .founder-image {
-                height: 300px;
+            .logo-img {
+                height: 50px;
             }
-        }
 
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
+            .logo-text {
+                font-size: 1.5rem;
             }
 
             .hero {
-                padding: 8rem 1.5rem 4rem;
+                padding: 10rem 2rem 5rem;
+            }
+
+            .hero-logo {
+                max-width: 150px;
+                margin-bottom: 2rem;
+            }
+
+            .hero-btn {
+                padding: 1rem 3rem;
+                font-size: 1.1rem;
+            }
+
+            section {
+                padding: 4rem 2rem;
+            }
+
+            .about {
+                padding: 4rem 2rem;
+            }
+
+            .section-intro {
+                margin-bottom: 3rem;
+            }
+
+            .products-grid {
+                gap: 2rem;
+            }
+
+            .product-card {
+                padding: 2.5rem;
+            }
+
+            .product-icon {
+                font-size: 4rem;
+                margin-bottom: 1rem;
+            }
+
+            .product-card h3 {
+                font-size: 1.4rem;
+                margin-bottom: 1rem;
+            }
+
+            .product-card p {
+                font-size: 1rem;
+            }
+
+            .problem {
+                padding: 4rem 2rem;
+            }
+
+            .innovation-grid {
+                gap: 2rem;
+            }
+
+            .innovation-card {
+                padding: 2.5rem;
+            }
+
+            .innovation-icon {
+                font-size: 3rem;
+                margin-bottom: 1rem;
+            }
+
+            .innovation-card h3 {
+                font-size: 1.3rem;
+                margin-bottom: 1rem;
+            }
+
+            .innovation-card p {
+                font-size: 1rem;
+            }
+
+            .founder {
+                padding: 4rem 2rem;
+            }
+
+            .founder-card {
+                grid-template-columns: 300px 1fr;
+            }
+
+            .founder-image {
+                height: auto;
+            }
+
+            .founder-details {
+                padding: 3rem;
+            }
+
+            .founder-name {
+                font-size: 1.8rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .founder-title {
+                font-size: 1rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .founder-bio p {
+                font-size: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .credentials {
+                gap: 1rem;
+                margin-top: 1.5rem;
+                padding-top: 1.5rem;
+            }
+
+            .credential-badge {
+                padding: 0.5rem 1rem;
+                font-size: 0.85rem;
+            }
+
+            .contact {
+                padding: 4rem 2rem;
             }
 
             .contact-grid {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+                max-width: 900px;
+            }
+
+            .contact-item {
+                padding: 2rem;
+            }
+
+            .contact-icon {
+                font-size: 2.5rem;
+                margin-bottom: 1rem;
+            }
+
+            .contact-label {
+                font-size: 0.85rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .contact-value {
+                font-size: 1.1rem;
+            }
+
+            footer {
+                padding: 2rem;
+                font-size: 0.9rem;
+            }
+        }
+
+        /* Hide desktop nav on mobile */
+        @media (max-width: 767px) {
+            .nav-links {
+                display: none;
             }
         }
 
